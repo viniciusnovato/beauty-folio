@@ -69,3 +69,19 @@ git push origin feature/nome-da-feature
 ```
 
 4. Abra um Pull Request
+
+## Desenvolvimento
+
+Para rodar o projeto localmente:
+
+```bash
+npm install
+npm run dev
+```
+
+## CI/CD
+
+O projeto utiliza GitHub Actions para:
+- Verificação de tipos
+- Linting
+- Build
